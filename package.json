@@ -1,0 +1,17 @@
+{
+  "name": "colorful-print",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yacine Sebti",
+  "description": "A flexible, chainable and lightweight colorful printing utility for Node.js",
+  "type": "module",
+  "keywords": ["console", "log", "color", "print", "println"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yacfish/colorful-print.git"
+  }
+}
