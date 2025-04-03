@@ -5,7 +5,7 @@ A Node.js module for stylish terminal output with chaining, customization, and f
 ---
 ## Features
 
-- **Chainable Styles**: Combine colors and effects like `println.red.bold("text")`.
+- **Chainable Styles**: Combine colors and effects like `println.red().bold("text")`.
 - **Dual Print Modes**: `PrintLn` for newlines, `Print` for inline output.
 - **Rich Color Options**: Standard colors, bright colors, backgrounds, 256-color mode, and true RGB colors.
 - **Text Styles**: Bold, underline, italic, dim, inverse, strikethrough, and more.
@@ -133,7 +133,7 @@ Use numbers 0–255 for fg (foreground) and bg (background).
 
 ```javascript
 println.rgb(255, 165, 0)("True orange");
-println.rgb(255, 165, 0,"True orange"); //alternative syntax
+println.rgb(255, 165, 0,"Also true orange"); //alternative syntax
 println.bg_rgb(0, 255, 0)("True green background");
 println.rgb(128, 0, 128).bold("Purple bold text");
 ```
