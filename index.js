@@ -1,4 +1,4 @@
-// colorful-print v1.0.0 by yacfish
+// colorful-print v1.0.1 by yacfish
 
 export const ANSIStyles = {
   reset: "\x1b[0m",
@@ -289,8 +289,8 @@ class Printer {
 
           try { // Wrap console output specifically
               if (output || this._isLn) {
-                  if (this._isLn) console.log(output);
-                  else if (output) process.stdout.write(output);
+                  if (this._isLn) console.log(ANSIStyles.reset+output);
+                  else if (output) process.stdout.write(ANSIStyles.reset+output);
               }
           } catch (e) {
                didErrorOccur = true;
