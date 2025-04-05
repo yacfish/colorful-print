@@ -1,3 +1,9 @@
+<!--
+  Title: colorful-print
+  Description: A Node.js module for stylish terminal output with chaining, customization, and flexible argument handling.
+  Author: yacfish (Yacine Sebti)
+  -->
+
 # Colorful Print
 
 A Node.js module for stylish terminal output with chaining, customization, and flexible argument handling.
